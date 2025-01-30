@@ -1,0 +1,12 @@
+trigger:
+- main 
+
+pool:
+  name: 'Default'
+
+steps:
+- task: AzureWebAppContainer@1
+  inputs:
+    azureSubscription: 'kamal-service-connection' 
+    appName: 'kamalwebapp' 
+    containers: 'kamalregistry34.azurecr.io/hello-world:latest'
