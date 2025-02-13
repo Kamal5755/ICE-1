@@ -7,7 +7,7 @@ trigger:
 - mai
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: ubuntu-ltest
 
 steps:
 - script: echo Hello, world!
