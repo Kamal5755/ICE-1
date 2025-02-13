@@ -4,10 +4,10 @@
 # https://aka.ms/yaml
 
 trigger:
-- mai
+- main
 
 pool:
-  vmImage: ubuntu-ltest
+  vmImage: ubuntu-latest
 
 steps:
 - script: echo Hello, world!
